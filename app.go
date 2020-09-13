@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	. "./config"
-	. "./dao"
-	. "./models"
+	. "github.com/ch4r4j4/proyecto1/config"
+	. "github.com/ch4r4j4/proyecto1/dao"
+	. "github.com/ch4r4j4/proyecto1/models"
 
 	"github.com/gorilla/mux"
 	"gopkg.in/mgo.v2/bson"
